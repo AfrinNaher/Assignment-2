@@ -80,8 +80,25 @@ main{
 
     /* Team Section */
 
+.team-sec{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    height: 400px;
+    
+}
+
 .team-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+}
+
+.team-discription{
+    margin-top: 180px;
+}
+
+.team-discription-h3{
+    font-size: 28px;
+    padding-bottom: 20px;
 }
