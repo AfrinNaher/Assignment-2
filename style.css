@@ -10,11 +10,15 @@
     
     /* Tilebar */
 
+header{
+    background-color: rgb(255, 255, 228);
+    padding: 50px 130px;
+}
+
 .head-title{
     display: flex;
     justify-content: space-between;
-    background-color: lightyellow;
-    padding: 50px 130px;
+    
 }
 
 .head-title>h2{
@@ -26,4 +30,58 @@
     text-decoration: none;
     color: black;
     padding-left: 40px;
+} 
+
+   /* Head Info */
+
+.head-info{
+    text-align: center;
+    padding-top: 70px;
+   
+}
+
+.head-info>h1{
+    font-size: 43px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.discription{
+    font-size: smaller;
+    color: dimgrey;
+    
+}
+
+.btn{
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+    color: white;
+    background-color: coral;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.banner-img{
+    width: 75%;
+    height: 400px;
+    
+}
+
+    /*----------
+     Main Part 
+    ---------- */
+
+main{
+    padding: 50px 130px;
+}
+
+    /* Team Section */
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
