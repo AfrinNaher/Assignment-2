@@ -76,16 +76,17 @@ header{
 
 main{
     padding: 50px 130px;
+    
 }
 
     /* Team Section */
 
 .team-sec{
     display: grid;
-    gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    height: 400px;
     
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-bottom: 100px;
 }
 
 .team-img{
@@ -102,3 +103,33 @@ main{
     font-size: 28px;
     padding-bottom: 20px;
 }
+
+   /* Feature Section */
+
+.feature-sec{
+    display: flex;
+    column-gap: 50px;
+    
+}
+
+.feature-h2{
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.feature-sec>div>p{
+    padding-bottom: 40px;
+}
+
+.feature-inside-div>div>p{
+    padding-bottom: 40px;
+}
+
+.feature-inside-div>div>h6{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+   /* Popularity */
+
