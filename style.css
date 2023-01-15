@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+    /*-----------
+     Header Part 
+    ------------*/
+    
+    /* Tilebar */
+
+.head-title{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightyellow;
+    padding: 50px 130px;
+}
+
+.head-title>h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.anchor-group>td>a{
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+}
