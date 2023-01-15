@@ -169,3 +169,36 @@ main{
     color: dimgrey;
     
 }
+
+    /*-----------
+     Footer Part 
+    ------------*/
+
+footer{
+    margin: 50px 130px;
+}
+
+.foot-h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.foot-div-1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.web-img{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.copyright{
+    background-color: antiquewhite;
+    height: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
