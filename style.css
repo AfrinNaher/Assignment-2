@@ -4,6 +4,8 @@
     font-family: sans-serif;
 }
 
+
+
     /*-----------
      Header Part 
     ------------*/
@@ -57,7 +59,7 @@ header{
     width: 120px;
     margin-top: 20px;
     color: white;
-    background-color: coral;
+    background-color: rgb(248, 77, 15);
     border-radius: 5px;
     border: none;
     font-weight: bolder;
@@ -131,6 +133,28 @@ main{
     padding-bottom: 10px;
 }
 
+.architect{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-btn{
+    color: white;
+    background-color: rgb(248, 77, 15);
+    border-radius: 5px;
+    border: none;
+    height: 120px;
+    width: 200px;
+    
+}
+
+.btn-span{
+    font-size: 33px;
+    font-weight: 900;
+    
+}
+
    /* Popularity */
    
 .fact-div{
@@ -202,3 +226,82 @@ footer{
     text-align: center;
     padding-top: 40px;
 }
+
+ /*-----------
+    Media Query
+   ------------*/
+
+@media screen and (max-width:576px) {
+    
+    header{
+        padding: 50px 35px;
+        
+    }
+    .head-title>h2{
+        justify-content: left;
+        
+    }
+
+    .banner-img{
+        width: 80%;
+        height: 200px;
+    }
+    
+    main{
+        padding: 50px ;
+    }
+    
+    .team-sec{
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .team-img{
+        display: block;
+        padding-left: 50px;
+    }
+
+    .team-discription{
+        margin-top: 50px;
+       
+    }
+    
+    .feature-sec{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .architect{
+        height: 580px;
+    }
+
+    .architect>img{
+        width: 93%;
+        
+    }
+
+    .popularity-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    footer{
+        margin: 50px 80px;
+    }
+
+    .web-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+    .web-img>img{
+        height: 30px;
+        width: 80px;
+        padding: 0 80px;
+    }
+    
+} 
+  
